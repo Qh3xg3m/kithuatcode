@@ -16,3 +16,5 @@ Danh sách n thí sinh thi Olympic từ tệp input.txt, trong đó dòng đầu
 1. Tính tổng số điểm của mỗi trường và cho biết trường nào có tổng điểm cao nhất
 2. In danh sách các thí sinh đạt điểm cao nhất lên màn hình
 3. In kết quả của ý 2 vào tệp output.txt
+# daonguoc
+Viết hàm đảo ngược chuỗi
