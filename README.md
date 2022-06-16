@@ -18,3 +18,11 @@ Danh sách n thí sinh thi Olympic từ tệp input.txt, trong đó dòng đầu
 3. In kết quả của ý 2 vào tệp output.txt
 # daonguoc
 Viết hàm đảo ngược chuỗi
+# dayso
+Tìm UCLN và BCNN của dãy số
+# docghitepmatran
+Đọc dữ liệu ma trận từ tệp và ghi vào tệp khác
+# nhanmatran
+Nhân 2 ma trận
+# sapxep
+Sắp xếp dãy tăng dần, giảm dần
