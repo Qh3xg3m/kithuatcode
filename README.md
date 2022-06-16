@@ -26,3 +26,13 @@ Tìm UCLN và BCNN của dãy số
 Nhân 2 ma trận
 # sapxep
 Sắp xếp dãy tăng dần, giảm dần
+# remove
+Xóa phần tử trùng nhau của dãy số
+# phantichnguyento
+Phân tích 1 số thành tích các thừa số nguyên tố
+# tangdan2
+Cho 2 dãy tăng dần, sắp xếp thành 1 dãy tăng dần mà ko gộp 2 dãy
+# kiemtrahoanvi
+Kiểm tra 2 dãy có phải hoán vị của nhau không
+# nguyentodoixung
+Cho số nguyên n. Tìm những số nguyên tố có các chữ số đối xứng nhau
