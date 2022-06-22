@@ -36,3 +36,5 @@ Cho 2 dãy tăng dần, sắp xếp thành 1 dãy tăng dần mà ko gộp 2 dã
 Kiểm tra 2 dãy có phải hoán vị của nhau không
 # nguyentodoixung
 Cho số nguyên n. Tìm những số nguyên tố có các chữ số đối xứng nhau
+# sudoku
+Code game sudoku
