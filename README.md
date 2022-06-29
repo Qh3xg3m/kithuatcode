@@ -16,6 +16,10 @@ Danh sách n thí sinh thi Olympic từ tệp input.txt, trong đó dòng đầu
 1. Tính tổng số điểm của mỗi trường và cho biết trường nào có tổng điểm cao nhất
 2. In danh sách các thí sinh đạt điểm cao nhất lên màn hình
 3. In kết quả của ý 2 vào tệp output.txt
+# thithu5
+Cho ma trận vuông cỡ n (n đọc từ file văn bản)
+1. Tính TBC các phần tử nằm dưới đường chéo phụ
+2. Kiểm tra xem đó có phải ma trận tam giác trên ko
 # daonguoc
 Viết hàm đảo ngược chuỗi
 # dayso
