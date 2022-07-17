@@ -42,3 +42,5 @@ Kiểm tra 2 dãy có phải hoán vị của nhau không
 Cho số nguyên n. Tìm những số nguyên tố có các chữ số đối xứng nhau
 # sudoku
 Code game sudoku
+# chuyenvi
+Cho 1 ma trận. In ra màn hình ma trận chuyển vị của ma trận đó
