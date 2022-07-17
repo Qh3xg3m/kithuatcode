@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include<stdlib.h>
 
 typedef struct {
 	float x,y;
@@ -13,6 +14,10 @@ void doctep(FILE *f, int *n, danhsach toado[])
 	printf("Ten file: ");
 	gets(file);
 	f = fopen(file,"r");
+	if(f == NULL) {
+		printf("Error! \n");
+		exit(1);
+	}
 	fscanf(f,"%d",n);
 	for (i=0;i<*n;i++)
 	{

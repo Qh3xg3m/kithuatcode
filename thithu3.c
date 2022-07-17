@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<stdlib.h>
 
 void doctep(int *m, int *n, float a[][10])
 {
@@ -9,6 +10,10 @@ void doctep(int *m, int *n, float a[][10])
 	printf("Ten file: ");
 	scanf("%s",&file);
 	f = fopen(file,"r");
+	if(f == NULL) {
+		printf("Error! \n");
+		exit(1);
+	}
 	fscanf(f,"%d %d\n",m,n);
 	for (i=0;i<*m;i++){
 		for (j=0;j<*n;j++){

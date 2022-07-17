@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include<stdlib.h>
 
 typedef struct {
 	char name[30], tacgia[30];
@@ -14,6 +15,10 @@ void doctep(FILE *f, int *n, danhsach sach[])
 	printf("Ten file: ");
 	gets(file);
 	f = fopen(file,"r");
+	if(f == NULL) {
+		printf("Error! \n");
+		exit(1);
+	}
 	fscanf(f,"%d\n",n);
 	for (i=0;i<*n;i++)
 	{
@@ -61,6 +66,10 @@ void ghitep(char tensach[])
 {
 	FILE *f;
 	f = fopen("output.txt","a");
+	if(f == NULL) {
+		printf("Error! \n");
+		exit(1);
+	}
 	fputs(tensach,f);
 	fputs("\n",f);
 	fclose(f);

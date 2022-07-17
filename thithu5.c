@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<stdlib.h>
 
 void docfile(int *n, float a[][20])
 {
@@ -9,6 +10,10 @@ void docfile(int *n, float a[][20])
 	printf("Ten file: ");
 	scanf("%s",&file);
 	f = fopen(file,"r");
+	if(f == NULL) {
+		printf("Error! \n");
+		exit(1);
+	}
 	fscanf(f,"%d",n);
 	for (i=0;i<(*n);i++)
 	{
